@@ -50,3 +50,16 @@ body {
     background-color: rgb(166, 255, 0);
 }
 
+@media (max-width: 768px) {
+    .seat {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .seat {
+        width: 20px;
+        height: 20px;
+    }
+}
