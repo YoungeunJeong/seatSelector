@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#screen {
+    width: 80%;
+    max-width: 600px;  /* Set a max-width for the screen */
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+#cinema {
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    max-width: 600px;  /* Set a max-width for the cinema div */
+    margin: 0 auto;  /* Center the cinema div */
+}
+
+.row {
+    display: flex;
+    justify-content: center;  /* Center the seats in each row */
+    gap: 5px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(151, 151, 255);
+    cursor: pointer;
+    flex-shrink: 0;  /* Prevent seats from shrinking */
+}
+
+.seat.selected {
+    background-color: rgb(166, 255, 0);
+}
+
+/* ... (existing media queries and other styles) ... */
